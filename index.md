@@ -48,5 +48,5 @@ Test private APIs with authentication using K6 to simulate high-load scenarios a
 ## 📫 Get in Touch
 
 - 🌐 [GitHub](https://github.com/maleksakir)  
-- 💼 [LinkedIn](https://www.linkedin.com/in/malek-sakir-6133a51b2/) *(add your LinkedIn URL)*  
+- 💼 [LinkedIn](https://www.linkedin.com/in/malek-sakir-6133a51b2/)
 - 📧 Email: maleksakir0309@gmail.com
