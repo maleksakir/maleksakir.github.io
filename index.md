@@ -3,7 +3,10 @@ layout: default
 title: 👋 Welcome to My Portfolio
 ---
 
-# 👋 Hi, I'm **Malek Sakir**  
+# 👋 Hi, I'm **Malek Sakir**
+
+<img src="assets/profile.png" alt="Malek Sakir Profile Photo" width="160" style="border-radius: 50%; margin-top: 10px; margin-bottom: 20px;">
+
 ### 🚀 DevOps | 🔐 Cybersecurity | ☁️ Cloud Enthusiast
 
 I'm a DevOps & Automation Engineer with 3+ years of experience in building secure, scalable infrastructure, CI/CD pipelines, and implementing cybersecurity best practices. I love creating tools, automating workflows, and defending systems from threats.
@@ -45,6 +48,5 @@ Test private APIs with authentication using K6 to simulate high-load scenarios a
 ## 📫 Get in Touch
 
 - 🌐 [GitHub](https://github.com/maleksakir)  
-- 💼 [LinkedIn](#) *(add your LinkedIn URL)*  
+- 💼 [LinkedIn](https://www.linkedin.com/in/malek-sakir-6133a51b2/) *(add your LinkedIn URL)*  
 - 📧 Email: maleksakir0309@gmail.com
-
