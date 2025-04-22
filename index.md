@@ -1,45 +1,50 @@
 ---
 layout: default
-title: 👋 Welcome
+title: 👋 Welcome to My Portfolio
 ---
 
-# 👋 Hello, I'm Malek Sakir — DevOps & Cybersecurity Engineer
+# 👋 Hi, I'm **Malek Sakir**  
+### 🚀 DevOps | 🔐 Cybersecurity | ☁️ Cloud Enthusiast
 
-I'm a DevOps & Automation Engineer with 3+ years of experience in infrastructure automation, CI/CD pipelines, and cybersecurity operations. I specialize in building secure, scalable systems with a strong focus on hardening, threat detection, and automation.
-
----
-
-## 🔐 Cybersecurity Skills
-- Vulnerability Management (OpenVAS, Tenable, Nessus)
-- EDR (CrowdStrike, SentinelOne)
-- SIEM & SCA (Wazuh, HardenKitty, ELK)
-- BitLocker & Device Encryption
-- Secure Code Analysis (SonarQube, GitLeaks)
-- Incident Response with Wazuh Active Responses
+I'm a DevOps & Automation Engineer with 3+ years of experience in building secure, scalable infrastructure, CI/CD pipelines, and implementing cybersecurity best practices. I love creating tools, automating workflows, and defending systems from threats.
 
 ---
 
-## 🚀 DevOps Stack
-- Docker, Kubernetes, Jenkins, GitHub Actions, Ansible
-- Monitoring with Prometheus + Grafana
-- Scripting in Bash, PowerShell, Python, .NET
+## 🔧 Skills & Tools
+
+**DevOps & Cloud:**  
+Docker · Kubernetes · Jenkins · GitHub Actions · Ansible · Terraform · AWS
+
+**Security & Monitoring:**  
+Wazuh · CrowdStrike · SentinelOne · OpenVAS · SonarQube · GitLeaks · HardenKitty · ELK Stack
+
+**Languages & Scripting:**  
+Bash · PowerShell · Python · YAML
+
+**Other:**  
+CI/CD · Infrastructure as Code (IaC) · System Hardening · SIEM · SCA · SAST · Vulnerability Management
 
 ---
 
 ## 📁 Featured Projects
 
-### 🔐 BitLocker Key Management
-C# + PowerShell automation to manage and backup recovery keys to Snipe-IT via Wazuh.
+### 🔐 BitLocker Key Management  
+C# + PowerShell automation to backup recovery keys to Snipe-IT and manage encryption with Wazuh integration.
 
-### ⚙️ DevSecOps CI/CD Pipeline
-CI/CD with Jenkins, GitLab CI, SonarQube, GitLeaks, Docker, Kubernetes.
+### ⚙️ DevSecOps CI/CD Pipeline  
+Jenkins + GitHub + SonarQube + GitLeaks + Docker + Kubernetes for secure and fast deployments.
 
-### 🛡️ Wazuh Custom Active Responses
-Wazuh + PowerShell integration to automate system tasks like reboot, device lock/unlock, Windows updates.
+### 🛡️ Wazuh Custom Active Response  
+Custom scripts to lock/unlock devices, perform updates, and take system actions from Wazuh alerts.
+
+### 📊 K6 Load Testing  
+Test private APIs with authentication using K6 to simulate high-load scenarios and performance analysis.
 
 ---
 
-## 📫 Contact Me
-- GitHub: [github.com/maleksakir](https://github.com/maleksakir)
-- LinkedIn: [https://www.linkedin.com/in/malek-sakir-6133a51b2/](#) *(Replace this with your real profile URL)*
-- Email: sakirmalek2141@gmail.com *(Update this to your real email)*
+## 📫 Get in Touch
+
+- 🌐 [GitHub](https://github.com/maleksakir)  
+- 💼 [LinkedIn](#) *(add your LinkedIn URL)*  
+- 📧 Email: maleksakir0309@gmail.com
+
