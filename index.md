@@ -5,7 +5,7 @@ title: 👋 Welcome to My Portfolio
 
 # 👋 Hi, I'm **Malek Sakir**
 
-<img src="assets/profile.png" alt="Malek Sakir Profile Photo" width="160" style="border-radius: 50%; margin-top: 10px; margin-bottom: 20px;">
+<img src="assets/Photo.png" alt="Malek Sakir Profile Photo" width="160" style="border-radius: 50%; margin-top: 10px; margin-bottom: 20px;">
 
 ### 🚀 DevOps | 🔐 Cybersecurity | ☁️ Cloud Enthusiast
 
