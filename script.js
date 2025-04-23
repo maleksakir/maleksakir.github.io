@@ -83,7 +83,7 @@ document.querySelectorAll('.experience-card').forEach(card => {
 function showResume() {
   const modal = document.getElementById('resumeModal');
   const resumeFrame = document.getElementById('resumeFrame');
-  resumeFrame.src = 'Malek_Sakir_Resume.pdf';
+  resumeFrame.src = 'asset/Malek_Sakir_Resume.pdf';
   modal.style.display = 'block';
 
   // Close modal when clicking the close button
