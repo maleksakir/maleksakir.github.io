@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Malek Sakir | DevOps Engineer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Malek Sakir</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button id="toggle-theme">🌙</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <img src="images/Photo.png" alt="Malek Sakir" class="profile-pic" />
+      <div class="hero-text">
+        <h2><span class="highlight">DevOps</span> | <span class="highlight">Cybersecurity</span> | <span class="highlight">Cloud Enthusiast</span></h2>
+        <p class="hero-description">Automating workflows, securing systems, and building scalable cloud-native infrastructure.</p>
+        <div class="cta-buttons">
+          <button onclick="showResume()" class="resume-btn">Show Resume</button>
+          <button onclick="redirectToContact()" class="resume-btn">Get in Touch</button>
+          <!-- <a href="#contact" class="contact-btn">Get in Touch</a> -->
+        </div>
+      </div>
+    </div>
+    <!-- Resume Modal -->
+    <div id="resumeModal" class="modal">
+      <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <iframe id="resumeFrame" class="resume-frame"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <main class="container">
+    <section id="about">
+      <div class="section-title">
+        <h2><span class="section-icon">👨‍💻</span>About Me</h2>
+        <p class="section-subtitle">Passionate DevOps Engineer & Cloud Security Enthusiast</p>
+      </div>
+      
+      <div class="about-content">
+        <div class="about-text">
+          <div class="intro-box">
+            <p class="intro-text">
+              Hello! I'm <span class="highlight">Malek Sakir</span>, a DevOps Engineer who loves turning complex infrastructure challenges into elegant automated solutions.
+            </p>
+          </div>
+      
+          <div class="key-points">
+            <div class="point-item">
+              <span class="point-icon">🎯</span>
+              <div class="point-content">
+                <h4>What I Do</h4>
+                <p>I help companies build and secure their cloud infrastructure, automate deployments, and implement robust security measures.</p>
+              </div>
+            </div>
+      
+            <div class="point-item">
+              <span class="point-icon">💡</span>
+              <div class="point-content">
+                <h4>My Approach</h4>
+                <p>I believe in "Infrastructure as Code" and "Security as Code" principles, making systems both scalable and secure.</p>
+              </div>
+            </div>
+      
+            <div class="point-item">
+              <span class="point-icon">🎓</span>
+              <div class="point-content">
+                <h4>Continuous Learning</h4>
+                <p>Always exploring new technologies and best practices in DevOps, Cloud, and Cybersecurity.</p>
+              </div>
+            </div>
+          </div>
+      
+          <div class="expertise-list">
+            <h4>Core Expertise:</h4>
+            <ul>
+              <li><span class="check-icon">✓</span> Cloud Infrastructure & DevOps Automation</li>
+              <li><span class="check-icon">✓</span> Security Implementation & Monitoring</li>
+              <li><span class="check-icon">✓</span> CI/CD Pipeline Optimization</li>
+              <li><span class="check-icon">✓</span> Container Orchestration</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <div class="section-title">
+        <h2><span class="section-icon">💼</span>Experience</h2>
+        <p class="section-subtitle">My Professional Journey</p>
+      </div>
+      
+      <div class="experience-container">
+        <!-- Current Position -->
+        <div class="experience-card current">
+          <div class="exp-header">
+            <span class="exp-icon">🚀</span>
+            <div class="exp-title">
+              <h3>DevOps & Security Engineer</h3>
+              <h4>Current Position</h4>
+              <span class="exp-duration">Present</span>
+            </div>
+          </div>
+          <div class="exp-content">
+            <ul class="achievement-list">
+              <li>
+                <span class="achievement-icon">⚡</span>
+                Design and maintain CI/CD pipelines with integrated security scanning using Jenkins and GitLab CI
+              </li>
+              <li>
+                <span class="achievement-icon">🛡️</span>
+                Conduct vulnerability assessments and implement security measures in cloud infrastructure
+              </li>
+              <li>
+                <span class="achievement-icon">☁️</span>
+                Manage AWS and Azure cloud platforms with focus on security best practices
+              </li>
+              <li>
+                <span class="achievement-icon">🔧</span>
+                Automate infrastructure provisioning and security compliance using Terraform and Ansible
+              </li>
+              <li>
+                <span class="achievement-icon">🐳</span>
+                Implement container security scanning and orchestration with Docker and Kubernetes
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Previous Position -->
+        <div class="experience-card">
+          <div class="exp-header">
+            <span class="exp-icon">💻</span>
+            <div class="exp-title">
+              <h3>Support Engineer</h3>
+              <h4>Early Career</h4>
+              <span class="exp-duration">1.5 Years</span>
+            </div>
+          </div>
+          <div class="exp-content">
+            <ul class="achievement-list">
+              <li>
+                <span class="achievement-icon">🔧</span>
+                Provided L1/L2 technical support for system and network issues
+              </li>
+              <li>
+                <span class="achievement-icon">📝</span>
+                Resolved customer tickets efficiently using Jira and ServiceNow
+              </li>
+              <li>
+                <span class="achievement-icon">🔍</span>
+                Performed root cause analysis and implemented preventive measures
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="section-title">
+        <h2><span class="section-icon">🛠️</span>Skills</h2>
+        <p class="section-subtitle">Technical expertise and tools I work with</p>
+      </div>
+      <div class="skills-container">
+        <div class="skills-category">
+          <h3>Cloud & Infrastructure</h3>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <span class="skill-icon">☁️</span>
+              <span>AWS</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-icon">🐳</span>
+              <span>Docker</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-icon">⚓</span>
+              <span>Kubernetes</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="skills-category">
+          <h3>DevOps Tools</h3>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <span class="skill-icon">⚙️</span>
+              <span>Ansible</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-icon">🌿</span>
+              <span>Git/Github</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-icon">🔄</span>
+              <span>Jenkins</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-icon">📦</span>
+              <span>Terraform</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-icon">🔁</span>
+              <span>GitLab</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-category">
+          <h3>Programming & Scripting</h3>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <span class="skill-icon">🐍</span>
+              <span>Python</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-icon">🐧</span>
+              <span>Linux/Shell</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-icon">⚡</span>
+              <span>PowerShell</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-icon">💎</span>
+              <span>Ruby</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="skills-category">
+          <h3>Security Tools</h3>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <span class="skill-icon">🔒</span>
+              <span>Nikto</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-icon">🛡️</span>
+              <span>Nmap</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-icon">🕷️</span>
+              <span>ZAP</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-category">
+          <h3>Testing & Monitoring</h3>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <span class="skill-icon">🎯</span>
+              <span>QA Automation</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-icon">⚡</span>
+              <span>K6</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-icon">📊</span>
+              <span>Grafana</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-icon">📈</span>
+              <span>Prometheus</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-icon">📝</span>
+              <span>Loki</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="section-title">
+        <h2><span class="section-icon">🚀</span>Projects</h2>
+        <p class="section-subtitle">Recent work and contributions</p>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-header">
+            <h3>K6 Load Balancer Testing</h3>
+            <span class="project-icon">⚡</span>
+          </div>
+          <p>Load testing with K6 for private APIs using 50 virtual users.</p>
+          <div class="project-links">
+            <a href="https://github.com/maleksakir/k6-load-test" target="_blank" class="github-link">
+              <span class="github-icon">📂</span> View on GitHub
+            </a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-header">
+            <h3>AWX Ansible Automation</h3>
+            <span class="project-icon">🔧</span>
+          </div>
+          <p>Automate server provisioning using Ansible and AWX.</p>
+          <div class="project-links">
+            <a href="https://github.com/maleksakir/awx-ansible-automation" target="_blank" class="github-link">
+              <span class="github-icon">📂</span> View on GitHub
+            </a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-header">
+            <h3>Vulnerability Scan & Patch</h3>
+            <span class="project-icon">🛡️</span>
+          </div>
+          <p>Scan vulnerable Apache server with Nikto and patch using Ansible.</p>
+          <div class="project-links">
+            <a href="https://github.com/maleksakir/vuln-scan-patch-poc" target="_blank" class="github-link">
+              <span class="github-icon">📂</span> View on GitHub
+            </a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-header">
+            <h3>Container Image Scan</h3>
+            <span class="project-icon">🔍</span>
+          </div>
+          <p>Scan and remediate Docker images using Trivy and Ansible in CI/CD pipeline.</p>
+          <div class="project-links">
+            <a href="https://github.com/maleksakir/container-scan-remediate" target="_blank" class="github-link">
+              <span class="github-icon">📂</span> View on GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="section-title">
+        <h2><span class="section-icon">📬</span>Contact Me</h2>
+        <p class="section-subtitle">Let's discuss your next project</p>
+      </div>
+      <div class="contact-container">
+        <div class="contact-cards">
+          <div class="contact-info-card">
+            <h3>Get in Touch</h3>
+            <div class="contact-links">
+              <a href="mailto:maleksakir0309@gmail.com" class="contact-item">
+                <span class="contact-icon">📧</span>
+                <span>maleksakir0309@gmail.com</span>
+              </a>
+              <a href="https://github.com/maleksakir" target="_blank" class="contact-item">
+                <span class="contact-icon">💻</span>
+                <span>@maleksakir</span>
+              </a>
+              <a href="https://www.linkedin.com/in/malek-sakir-6133a51b2/" target="_blank" class="contact-item">
+                <span class="contact-icon">👔</span>
+                <span>malek-sakir</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <form id="contact-form" action="https://formspree.io/f/movdqvnq" method="POST">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="_replyto" placeholder="Enter your email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" placeholder="Type your message here..." required></textarea>
+          </div>
+          <input type="hidden" name="_subject" value="New Contact Form Submission" />
+          <input type="text" name="_gotcha" style="display:none" />
+          <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Malek Sakir</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
